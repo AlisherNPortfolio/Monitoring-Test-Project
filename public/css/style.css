@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+.step-1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.accounts {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 43, 43);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    width: calc(100% - 600px);
+    margin-right: 30px;
+}
+.nums {
+    height: 65px;
+    background-color: rgb(61, 61, 61);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    margin: 30px 15px 0 15px;
+}
+h2 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.account-box {
+    width: 100%;
+    box-sizing: border-box;
+}
+.partners {
+    width: 600px;
+    box-sizing: border-box;
+    background-color: rgb(44, 43, 43);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 0 0 40px 0;
+}
+.mps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.mps img, p {
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.account-box h2 {
+        padding: 30px 0 0 25px;
+}
+.partners h2 {
+    padding: 30px 0 0 30px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.partners h4 {
+    float: right;
+    float: right;
+    margin-top: -20px;
+    margin-right: 40px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.partners h4 span {
+    margin-left: 65px;
+    font-size: 14px;
+    color: darkgrey;
+}
+.net {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.okay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #27AE60;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 15px;
+}
+.xxx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #F23D5B;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 15px;
+}
+.net h3 {
+    color: #27AE60;
+    margin-left: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+#dnwork {
+    color: #F23D5B;
+}
+.mistakes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mistakes h3 {
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+}
+#mis100 {
+    color: #F23D5B;
+}
+#mis0 {
+    color: darkgrey;
+}
+#mis25 {
+    color: yellow;
+}
+#mis38 {
+    color: yellow;
+}
+.mps:hover {
+    border-color: yellow;
+}
+.mps p:hover {
+    color: yellow;
+}
+.net:hover {
+    border-color: #F23D5B;
+}
+.mistakes:hover {
+    border-color: #F23D5B;
+}
+.midle_h2 {
+    font-size: 16px;
+    color: white;
+    margin: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.today {
+    width: 116px;
+    height: 40px;
+    margin: 0 0px 10px 30px;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    border-radius: 15px;
+}
+.today h3 {
+    color: darkgrey;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.results {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.reports {
+    width: 290px;
+    height: 100px;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: #0D0D0D;
+    margin: 0 0 20px 30px;
+}
+.reports p {
+    color: darkgrey;
+    font-size: 12px;
+    margin: 20px 0px 0px 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.reports h3 {
+    font-size: 30px;
+    color: white;
+    margin: 5px 0 20px 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.yesterday {
+    width: 116px;
+    height: 40px;
+    margin: 0 0px 10px 30px;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    border-radius: 15px;
+    background-color: #0D0D0D;
+}
+.yesterday h3 {
+    color: darkgrey;
+    font-weight: 600;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.succes {
+    border-left: 2px solid green;
+    margin-left: 25px;
+}
+.fail{
+    border-left: 2px solid yellow;
+    margin-left: 25px;
+}
+.unsucces{
+    border-left: 2px solid red;
+    margin-left: 25px;
+}
+.statistics {
+    position: relative;
+    width: 595px;
+    height: 60px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 52px 0 30px 30px;
+}
+.st_text {
+    position: absolute;
+    color:  darkgray;
+    top: 22px;
+    left: 15px;
+}
+.st_text h3 {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.st_num {
+    color: white; 
+    display: flex;
+    justify-content: flex-end;
+}
+.st_num img {
+    margin: 15px 15px 15px 0;
+}
+.st_num h3 {
+    margin: 18px 13px 0 0;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+@media screen and (min-width: 1920px) {
+    .reports {
+        height: 90px;
+    }
+    .midle_h2 {
+        margin: 10px 0 10px 30px;
+    }
+    .statistics {
+        margin: 8px 0 0 30px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .reports {
+        height: 90px;
+    }
+    .midle_h2 {
+        margin: 10px 0 10px 30px;
+    }
+    .statistics {
+        margin: 8px 0 0 30px;
+    }
+}
+
+path#SvgjsPath1019.apexcharts-area{
+	fill: #008ffb
+}
